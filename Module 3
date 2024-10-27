@@ -1,0 +1,8 @@
+FullAdder FAl (.A(Al01), .B(B[01^C), .C(C),
+.F (WO), G(S[01));
+FullAdder FAZ(A(AI1]), .B(B[11^C), .C(WO),
+.F(W1), .G(S(1]));
+FullAdder FA3(A(A[21), .B(B[2]^С), .C(W1),
+.F(W2), .G(S[2]));
+FullAdder FA4 (.A(AI3]), .B(B[31^C), .C(W2) ,
+.F(W3), .G(S[31));
