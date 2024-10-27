@@ -1,0 +1,3 @@
+This module represents a top-level design that integrates various components to create a system.
+It includes button counters, adder, subtractor, digit decoder, MUXes, 7-segment decoders, and a cathode clock.
+The specific functionality of the system would depend on the implementations of the instantiated modules and the connections between them.
