@@ -1,0 +1,6 @@
+This line instantiates an instance of the Top module and connects its ports to the corresponding signals declared in the testbench (btl, btn2, rst, sub, rsult, clk, cathode, and seg7).
+The clock signal and toggles it every 5 time units, creating a 100MHz clock.
+Then it initializes the input signals, generates a VCD file for waveform dumping,
+simulates button presses for input 1 and input 2, triggers a calculation (result = 1),
+waits for a short time, and then resets the system. The simulation is set to run for 500 time units before finishing.
+The testbench appears to cover different scenarios, including addition and subtraction, and checks if the calculator produces the expected results. The VCD file (waveform.vcd) can be viewed using a waveform viewer to analyze the simulation results.
