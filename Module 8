@@ -1,0 +1,7 @@
+module CathodeClock(...): Declares a module named CathodeClock with input clk and outputs S (2 bits) and T
+Initial begin: The block of code inside this initial block executes once at the beginning of simulation.
+S = 2'b01; Initializes the 2-bit register S with the binary value 01.
+T = S[0]; Initializes the register T with the value of the most significant bit of S
+(bit at index 0).
+The module is designed to create a simple 2-bit counter (S) that alternates between the binary values 01 and 10 on each rising edge of the clock (clk).
+The current state of the counter is also reflected in the output T, which represents the most significant bit of S.
