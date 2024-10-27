@@ -1,0 +1,4 @@
+input A, B, C,
+   output F, G
+assign F = A&C | B&C | A&B;
+   assign G = A^B^C;
