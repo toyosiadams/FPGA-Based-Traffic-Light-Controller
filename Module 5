@@ -1,0 +1,5 @@
+FourBitMUX2 is a 4-to-1 multiplexer module. It takes two 4-bit inputs A and B, a select signal S, and produces a 4-bit output Y.
+For each bit of the output Y, there is an assignment statement.
+Y[O] is assigned the result of the multiplexer operation on the least significant bits of A and B based on the value of S.
+Similarly, Y[1] is assigned based on the next bit, and so on.
+For each bit, this expression { ~S&A[i] | S&B[i] } performs the 4-to-1 multiplexer operation.
