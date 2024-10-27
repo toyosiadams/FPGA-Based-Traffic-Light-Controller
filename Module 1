@@ -1,0 +1,8 @@
+input B,
+  input rst,
+  output reg [13:01] S
+always @ (posedge B) begin
+  case(S)
+    4160000: 5 = 4'60001;
+    4'60001: 5 = 4'60010;
+    4'60010: 5 = 4'60011;
