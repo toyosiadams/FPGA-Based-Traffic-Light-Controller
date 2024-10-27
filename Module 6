@@ -1,0 +1,6 @@
+SevenBitMUX2 is a 7-to-1 multiplexer module. It takes two 7-bit inputs A and B, a select signal S, and produces a 7-bit output Y.
+For each bit of the output Y, there is an assignment statement.
+Y[0] is assigned the result of the multiplexer operation on the least significant bits of A and B based on the value of S.
+Similarly, Y[1] is assigned based on the next bit, and so on up to Y[6].
+For each bit, this expression < ~S&A[i]| S&B[i] } performs the 7-to-1 multiplexer operation.
+If S is 0, the output is A[i], and if S is 1, the output is B[i].
